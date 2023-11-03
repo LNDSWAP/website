@@ -4,7 +4,7 @@
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
 
-  --vt-c-black: #181818;
+  --vt-c-black: #191B1F;
   --vt-c-black-soft: #222222;
   --vt-c-black-mute: #282828;
 
@@ -19,11 +19,14 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+  --el-menu-bg-color: #191B1F;
 }
 
 /* semantic color variables for this project */
 :root {
-  --color-background: var(--vt-c-white);
+  --color-background: var(--vt-c-black);
+  --el-menu-bg-color: #191B1F;
+
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
 
@@ -39,6 +42,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);
+    --el-menu-bg-color: #191B1F;
     --color-background-soft: var(--vt-c-black-soft);
     --color-background-mute: var(--vt-c-black-mute);
 
@@ -54,7 +58,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
   font-weight: normal;
 }
 
@@ -65,21 +68,9 @@ body {
   transition:
     color 0.5s,
     background-color 0.5s;
-  line-height: 1.6;
+  line-height: inherit;
   font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  font-size: 15px;
+    inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
