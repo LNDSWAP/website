@@ -4,7 +4,7 @@
             <div class="main-page-1-1">
 
                 <el-text class="main-page-1-1-title" truncated>
-                    First Sawp Taproot Assets <br />
+                    Taproot Assets Sawp<br />
                     on Bitcoin Lightning Network
 
                 </el-text>
@@ -12,9 +12,9 @@
                 <el-text class="main-page-1-1-desc">
                     <br />
                     <br />
-                    Unlock the full potential of LND taproot assets with Lndswap. <br />
+                    Unlock the full potential of taproot assets with Lndswap. <br />
                     The ultimate hub for everything bitcoin taproot asssets. <br />
-                    Simplify your bitcoin asssets journey and enjoy a safer, <br />
+                    Simplify your bitcoin taproot asssets journey and enjoy a safer, <br />
                     more accessible experience.
                 </el-text>
             </div>
@@ -22,7 +22,7 @@
 
         <el-col :span="10">
             <div class="main-page-1-2">
-                <el-image src="/mick.png" fit="contain" />
+                <el-image src="./lightning.png" fit="contain" />
             </div>
         </el-col>
     </el-row>
