@@ -4,8 +4,8 @@
             <img src="../assets/lndswap.png" width="160" height="40" />
         </a>
         <nav class="bar-nav">
-            <el-link :underline="false" class="bar-nav-link" target="_blank"
-                href="https://docs.lndswap.io">Documents</el-link>
+            <!--el-link :underline="false" class="bar-nav-link" target="_blank"
+                href="https://docs.lndswap.io">Documents</el-link -->
             <a rel="noopener noreferrer" href="/" class="bar-nav-launch">Launch
                 (coming soon)</a>
         </nav>
